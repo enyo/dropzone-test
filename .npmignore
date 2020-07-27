@@ -9,6 +9,7 @@ _config.yaml
 .idea
 website
 tool
+src
 
 # The GitLab pages artifacts
 public
