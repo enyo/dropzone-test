@@ -18,6 +18,19 @@ jobs:
         uses: actions/setup-node@v2.1.1
       - name: Checkout Dropzone
         uses: actions/checkout@v2
+      - name: Read package.json version
+        uses: pchynoweth/action-get-npm-version@1.0.1
+        id: package_version
+      - name: Inject package version into javascript file
+        uses: jacobtomlinson/gha-find-replace@master
+        id: version_replace
+        with:
+          include: "src/dropzone.js"
+          find: "version = \"dev\""
+          replace: "version = \"${{ steps.package_version.outputs.version }}\""
+      - name: Abort if version wasn't replaced
+        if: steps.version_replace.outputs.modifiedFiles != 1
+        run: exit 1
       - run: npm install
       - run: npm run build --if-present
       - run: npm test
@@ -86,3 +99,4 @@ jobs:
           asset_content_type: application/zip
       - name: Publish
         run: echo running
+        
