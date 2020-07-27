@@ -1,7 +1,7 @@
 Contribute
 ==========
 
-The latest version is always in the **[master](https://gitlab.com/meno/dropzone)**
+The latest version is always in the **[master](https://github.com/enyo/dropzone)**
 branch.
 
 > Please provide a test for any new feature (see the [testing section](#testing) below).

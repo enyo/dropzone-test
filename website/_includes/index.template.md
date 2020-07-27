@@ -51,8 +51,8 @@ Dropzone!
 
 The most requested feature of this release is **chunked uploads**! Thanks to
 **SIMPEL** for donating the money, making this feature available to everybody!
-Check out [the wiki on chunked uploads](https://gitlab.com/meno/dropzone/wikis/faq#chunked-uploads) for more
-information and see the [full CHANGELOG on GitLab](https://gitlab.com/meno/dropzone/blob/master/CHANGELOG.md).
+Check out [the wiki on chunked uploads](https://github.com/enyo/dropzone/wiki/FAQ#chunked-uploads) for more
+information and see the [full CHANGELOG on GitHub](https://github.com/enyo/dropzone/blob/master/CHANGELOG.md).
 
 <p style="text-align: center;">
   <a href="http://simpel.com.au/" target="_blank" rel="nofollow noopener" style="border-bottom: none; background: white; padding: 0.8rem 1rem 0.5rem 0.9rem; display: inline-block;">

@@ -72,8 +72,8 @@ while ((matchResult = singleConfigRegExp.exec(configBlock)) !== null) {
   let doc = marked(rawDoc);
 
   doc = doc
-      .replace(/{{/g, '{% raw %}{{{% endraw %}')
-      .replace(/}}/g, '{% raw %}}}{% endraw %}');
+    .replace(/{{/g, '{% raw %}{{{% endraw %}')
+    .replace(/}}/g, '{% raw %}}}{% endraw %}');
 
   htmlDoc += `
     <tr id="config-${varName}">
@@ -81,7 +81,7 @@ while ((matchResult = singleConfigRegExp.exec(configBlock)) !== null) {
         <a href="#config-${varName}"><code>${varName}</code></a>
         <a title="See source code"
            target="_blank"
-           href="https://gitlab.com/meno/dropzone/blob/master/src/dropzone.coffee#L${getLine(varName)}"
+           href="https://github.com/enyo/dropzone/blob/master/src/dropzone.js#L${getLine(varName)}"
            class="default-value"><code>default: ${defaultValue}</code></a>
       </td>
       <td class="value">

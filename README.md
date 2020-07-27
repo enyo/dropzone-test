@@ -6,7 +6,7 @@ This means that a user can drag and drop a file onto it, and the file gets uploa
 * * *
 
 _If you want support, please use [stackoverflow](https://stackoverflow.com/questions/tagged/dropzone.js) with the `dropzone.js` tag and not the
-GitLab issues tracker. Only post an issue here if you think you discovered a bug or have a feature request._
+GitHub issues tracker. Only post an issue here if you think you discovered a bug or have a feature request._
 
 * * *
 
@@ -14,7 +14,7 @@ GitLab issues tracker. Only post an issue here if you think you discovered a bug
 
 <br>
 <div align="center">
-  <a href="https://github.com/enyo/dropzone/archive/v5.7.0.zip"><strong>&gt;&gt; Download &lt;&lt;</strong></a>
+  <a href="http://github.com/enyo/dropzone/releases/latest/download/dist.zip"><strong>&gt;&gt; Download &lt;&lt;</strong></a>
 </div>
 <br>
 <br>
@@ -43,22 +43,23 @@ folder.
 
 For the full documentation and installation please visit [www.dropzonejs.com](http://www.dropzonejs.com)
 
-Please also refer to the [FAQ](https://gitlab.com/meno/dropzone/-/wikis/FAQ).
+Please also refer to the [FAQ](https://github.com/enyo/dropzone/wiki/FAQ).
 
 ## Examples
 
-For examples, please see the [GitLab wiki](https://gitlab.com/meno/dropzone/wikis/home).
+For examples, please see the [GitHub wiki](https://github.com/enyo/dropzone/wiki).
 
 
 # Installation
 
-You probably only need to look at the [simple example](http://www.dropzonejs.com/examples/simple.html) ([source](https://gitlab.com/meno/dropzone/raw/master/website/examples/simple.html))
+You probably only need to look at the [simple example](http://www.dropzonejs.com/examples/simple.html)
+([source](https://github.com/enyo/dropzone/blob/master/website/examples/simple.html))
 to get started. Continue reading for step by step instructions and different
 installation approaches.
 
 * * *
 
-Download the standalone [dropzone.js](https://github.com/enyo/dropzone/archive/v5.7.0.zip)
+Download the standalone [dropzone.js](http://github.com/enyo/dropzone/releases/latest/download/dist.zip)
 and include it like this:
 
 ```html
@@ -184,7 +185,7 @@ Paid documentations:
 - [eBook for Dropzone with PHP](http://www.startutorial.com/homes/dropzonejs_php_the_complete_guide?utm_source=dzj&amp;utm_medium=banner&amp;utm_campaign=dropzonejs) by startutorial.com.
 
 
-Please look at the [Dropzone FAQ](https://gitlab.com/meno/dropzone/-/wikis/FAQ) if
+Please look at the [Dropzone FAQ](https://github.com/enyo/dropzone/wiki/FAQ) if
 you need more information.
 
 
@@ -312,7 +313,7 @@ See the [Theming](#theming) section, for a more in depth look at how to change D
 I created an example where I made Dropzone look and feel exactly the way jQuery
 File Uploader does with a few lines of configuration code. [Check it out!](/bootstrap.html)
 
-> Again, please look at the [Dropzone FAQ](https://gitlab.com/meno/dropzone/-/wikis/FAQ) if
+> Again, please look at the [Dropzone FAQ](https://github.com/enyo/dropzone/wiki/FAQ) if
 > you’re still unclear about some features.
 
 
@@ -382,7 +383,7 @@ let mockFile = { name: "Filename", size: 12345 };
 myDropzone.displayExistingFile(mockFile, 'https://image-url');
 ```
 
-See the FAQ on [How to show files stored on server](https://gitlab.com/meno/dropzone/-/wikis/FAQ#how-to-show-files-already-stored-on-server)
+See the FAQ on [How to show files stored on server](https://github.com/enyo/dropzone/wiki/FAQ#how-to-show-files-already-stored-on-server)
  for more information.
 
 
@@ -566,12 +567,12 @@ new Dropzone(document.body, {
 
 
 
-Look at the [gitlab wiki](https://gitlab.com/meno/dropzone/wikis/home) for more examples.
+Look at the [github wiki](https://github.com/enyo/dropzone/wiki) for more examples.
 
 If you have any problems using Dropzone, please try to find help on
 [stackoverflow.com](https://stackoverflow.com/questions/tagged/dropzone.js) by using the `dropzone.js`
 tag.
-Only create an issue on GitLab when you think you found a bug or want to
+Only create an issue on GitHub when you think you found a bug or want to
 suggest a new feature.
 
 
